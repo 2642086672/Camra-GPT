@@ -3,7 +3,7 @@
 Camra-GPT 是一个基于 GPT-4 Vision 的图像识别和语音互动系统。该项目旨在通过摄像头捕捉图像，并使用 GPT-4 Vision 进行图像分析，同时结合语音识别和合成技术，与用户进行自然语言对话。
 
 ## 功能
-
+- **测试环境**: MacOS14，Apple Silicon M1
 - **图像捕捉**: 从摄像头捕捉图像并自动调整曝光。
 - **图像分析**: 使用 GPT-4 Vision 对捕捉的图像进行分析。
 - **语音识别**: 识别用户的语音指令，并根据指令执行相应操作。
@@ -37,7 +37,7 @@ Camra-GPT 是一个基于 GPT-4 Vision 的图像识别和语音互动系统。�
 
 1. **配置 API 密钥**
 
-    在 `config.py` 文件中配置 GPT-4 API 密钥。
+    在 `gpt_analysis.py` 文件中配置 GPT-4 API 密钥。
 
     ```python
     OPENAI_API_KEY = 'your-api-key-here'
