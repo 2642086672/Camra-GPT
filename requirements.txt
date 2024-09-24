@@ -1,0 +1,5 @@
+openai
+opencv-python
+speechrecognition
+pyttsx3
+
